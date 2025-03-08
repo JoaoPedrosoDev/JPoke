@@ -1,5 +1,5 @@
 import { useState } from "react";
-import TypeList from "./TypeList";
+import TypeList from "../components/TypeList";
 
 function Poke() {
     const [PokeName, SetPokeName] = useState('');
@@ -23,7 +23,7 @@ function Poke() {
         }
     }
     return (
-        <div className="font-poppins">
+        <div className="mt-15 mb-10">
             <h1 className="text-center mt-5 mb-5 text-2xl">Busca Pokemon!</h1>
             <div className="flex justify-center items-center">
                 <div className="w-full max-w-xs sm:max-w-sm md:max-w-md lg:max-w-lg xl:max-w-xl mt-12 mb-2">
@@ -59,9 +59,6 @@ function Poke() {
                 </div>
             )}
 
-            <footer className="bg-gray-800 text-white text-center py-8">
-                Feito por João Pedro Dias Pedroso
-            </footer>
         </div>
     );
 }
