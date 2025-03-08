@@ -37,7 +37,7 @@ function Dex() {
             <img src={pokemon.sprite} alt={pokemon.name} className="mx-auto mt-10 mb-5" />
             <div className="text-center mt-3">
               {pokemon.types.map((type, typeIndex) => (
-                <span key={typeIndex} className=" capitalize badge bg-primary text-white mx-1">{type}</span>
+                <span key={typeIndex} className=" capitalize badge bg-primary mx-1">{type}</span>
               ))}
             </div>
           </div>
