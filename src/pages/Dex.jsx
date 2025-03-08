@@ -5,7 +5,7 @@ function Dex() {
 
   async function getAllPokemons() {
     try {
-      const response = await fetch("https://pokeapi.co/api/v2/pokemon?limit=151")
+      const response = await fetch("https://pokeapi.co/api/v2/pokemon?limit=1025")
       const data = await response.json()
       const pokemonDetailsPromises = data.results.map(async (pokemon) => {
         const pokemonResponse = await fetch(pokemon.url)
