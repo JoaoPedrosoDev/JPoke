@@ -24,7 +24,7 @@ Este é um projeto em React para buscar e visualizar informações sobre Pokémo
 ### 1. Clonar o repositório
 
 ```bash
-git clone https://github.com/joazao-pedroso/JPoke
+git clone https://github.com/JoaoPedrosoDev/JPoke
 ```
 ### 2. Instalar as dependências
 
