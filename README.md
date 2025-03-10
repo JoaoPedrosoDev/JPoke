@@ -58,4 +58,9 @@ Permite que qualquer pessoa faça uso do código, incluindo a modificação, dis
 
 A licença MIT não fornece nenhuma garantia e o uso do código é por conta e risco do usuário.
 
+## Acesse o Projeto
+
+Você pode acessar a versão online do projeto clicando no seguinte link:  
+[JPoke - Visualize o Projeto Aqui](https://jpoke.vercel.app/)
+
 
