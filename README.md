@@ -3,7 +3,7 @@
 ![JPOKE](/img/banner.png)
 
 Este é um projeto em React para buscar e visualizar informações sobre Pokémon utilizando a API pública do [PokeAPI](https://pokeapi.co/).
-
+[Deploy](https://jpoke.vercel.app/)
 
 
 ## Funcionalidades
@@ -34,7 +34,7 @@ npm install
 
 ### 3. Rodar o projeto
 ```
-npm start
+npm run dev
 ```
 ## Descrição dos Arquivos Principais
 
